@@ -37,7 +37,7 @@ export default function Router({menu,footer}) {
         minHeight: minHeight
     };
     return (
-        <ReactRouter>
+        <ReactRouter basename={process.env.PUBLIC_URL}>
             <div>
                 {menu}
                 <div className="p-4 position-relative" style={minStyle}>

@@ -22,6 +22,9 @@ export default function Clients() {
     const openUrl=(site)=>{
         window.open(site);
     }
+    const imgStyle ={
+        maxWidth:'100%'
+    }
     return (
         <div className="container-lg">
             <h2 className="text-primary mb-3">Corporate Clients</h2>
@@ -30,7 +33,7 @@ export default function Clients() {
                     clients.map(({id,logo,alt,site})=>{
                         return (<Col xs={6} md={3} key={id}>
                             <div className="shadow text-center p-2 my-3 client cursor-pointer" onClick={()=>openUrl(site)}>
-                                <img src={logo} alt={alt}>
+                                <img src={logo} alt={alt} style={imgStyle}>
                                 </img>
                             </div>
                         </Col>)

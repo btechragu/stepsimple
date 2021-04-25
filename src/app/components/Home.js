@@ -1,5 +1,6 @@
 import React from 'react'
 import { Button } from 'react-bootstrap'
+import { Link } from 'react-router-dom';
 
 export default function Home({minHeight}) {
     const minStyle = {
@@ -24,7 +25,7 @@ export default function Home({minHeight}) {
                     <h3 className="mb-4" style={ansStyle}>Latest Technologies</h3>
                     <h3 className="mb-4" style={ansStyle}>Office Work Culture</h3>
                     <h3 className="mb-4" style={ansStyle}>Organization Structure</h3>
-                    <Button className="mt-5" style={btnStyle} href="/contact">Contact Us</Button>
+                    <Button className="mt-5" as={Link} to="/contact" style={btnStyle}>Contact Us</Button>
                 </div>
             </div>
         </div>
