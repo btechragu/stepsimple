@@ -14,7 +14,7 @@ export default function Enablement() {
             <div className="shadow p-3">
                 <Row>
                     <Col className="p-3">
-                        <h3 className="text-subheader"><FontAwesomeIcon icon={faGraduationCap} className="mr-2"></FontAwesomeIcon>About the Course</h3>
+                        <h3 className="text-subheader mb-3"><FontAwesomeIcon icon={faGraduationCap} className="mr-2"></FontAwesomeIcon>About the Course</h3>
                         <ul className="pl-4 list-type-none enable-ul">
                             <li><FontAwesomeIcon icon={faArrowRight} className="mr-2 text-muted"></FontAwesomeIcon>Training on latest Software Technologies</li>
                             <li><FontAwesomeIcon icon={faArrowRight} className="mr-2 text-muted"></FontAwesomeIcon>Training on Banking fundamentals</li>
@@ -35,7 +35,7 @@ export default function Enablement() {
                         <img src={eligi_img} alt="Course"></img>
                     </Col>
                     <Col>
-                    <h3 className="text-subheader"><FontAwesomeIcon icon={faCheck} className="mr-2"></FontAwesomeIcon>Eligibility</h3>
+                    <h3 className="text-subheader mb-3"><FontAwesomeIcon icon={faCheck} className="mr-2"></FontAwesomeIcon>Eligibility</h3>
                     <div className="pl-3">
                         <h4>Educational Qualification</h4>
                         <ul className="pl-4 list-type-none enable-ul">
@@ -50,7 +50,7 @@ export default function Enablement() {
                             <li><FontAwesomeIcon icon={faArrowRight} className="mr-2 text-muted"></FontAwesomeIcon>Any course completed on Java / PLSQL / Full Stack</li>
                         </ul>
                     </div>
-                    <h3 className="text-subheader"><FontAwesomeIcon icon={faMoneyBillAlt} className="mr-2"></FontAwesomeIcon>Fees</h3>
+                    <h3 className="text-subheader mb-3"><FontAwesomeIcon icon={faMoneyBillAlt} className="mr-2"></FontAwesomeIcon>Fees</h3>
                     <ul className="pl-4 list-type-none">
                         <li><FontAwesomeIcon icon={faArrowRight} className="mr-2 text-muted"></FontAwesomeIcon>&#8377; 45,000 (exclusive of GST)</li>
                     </ul>
@@ -60,14 +60,14 @@ export default function Enablement() {
             <div className="shadow p-3 mt-3">
                 <Row>
                     <Col>
-                        <h3 className="text-subheader"><FontAwesomeIcon icon={faAward} className="mr-2"></FontAwesomeIcon>Benefits</h3>
+                        <h3 className="text-subheader mb-3"><FontAwesomeIcon icon={faAward} className="mr-2"></FontAwesomeIcon>Benefits</h3>
                         <ul className="pl-4 list-type-none enable-ul">
                             <li><FontAwesomeIcon icon={faArrowRight} className="mr-2 text-muted"></FontAwesomeIcon>Dedicated mentor for each training batch</li>
                             <li><FontAwesomeIcon icon={faArrowRight} className="mr-2 text-muted"></FontAwesomeIcon>Special sessions from experienced Industry Senior Consultants</li>
                             <li><FontAwesomeIcon icon={faArrowRight} className="mr-2 text-muted"></FontAwesomeIcon>Opportunity to work on world class Core Banking Solutions</li>
                             <li><FontAwesomeIcon icon={faArrowRight} className="mr-2 text-muted"></FontAwesomeIcon>Onsite travel implementation opportunity</li>
                         </ul>
-                        <h3 className="text-subheader"><FontAwesomeIcon icon={faCalendarAlt} className="mr-2"></FontAwesomeIcon>Training Start Date</h3>
+                        <h3 className="text-subheader mb-3"><FontAwesomeIcon icon={faCalendarAlt} className="mr-2"></FontAwesomeIcon>Training Start Date</h3>
                         <ul className="pl-4 list-type-none">
                             <li><FontAwesomeIcon icon={faArrowRight} className="mr-2 text-muted"></FontAwesomeIcon>May 2021</li>
                         </ul>
