@@ -1,0 +1,91 @@
+/* import bootstrap to set changes */
+$navbar-light-active-color : #0580e9;
+
+@import "~bootstrap/scss/bootstrap";
+:root {
+    --primary:#029aeb;
+}
+.text-primary {
+    color: #029aeb !important;
+}
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 2rem;
+        padding-left: 2rem;
+        position: relative;
+        height: 64px;
+        padding-top: 18px;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link>span::after {
+        content: "";
+        bottom: -8px;
+        left: 25px;
+        position: absolute;
+        width: 0;
+        height: 3px;
+        transition: width .5s cubic-bezier(.77, 0, .175, 1);
+    }
+    .navbar-light .navbar-nav .nav-link.active>span::after,
+    .navbar-light .navbar-nav .nav-link:hover>span::after {
+        width: calc(100% - 50px);
+        background:$navbar-light-active-color;
+    }
+    .navbar-light .navbar-nav .nav-link:hover {
+        color: $navbar-light-active-color;
+    }
+    .home-page {
+        height: 400px;
+    }
+}
+
+.footer {
+    background: $navbar-light-active-color;
+    color: #f1f1f1;
+}
+
+.footer-link a {
+    color: #f1f1f1;
+    display: block;
+    margin: 15px;
+}
+
+.follow-us svg {
+    margin:10px;
+    font-size: 24px;
+}
+
+.client {
+    height: calc(100% - 2rem);
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+.text-subheader {
+    color:#0fc1ef;
+}
+.list-type-none {
+    list-style-type: none;
+}
+.enable-image img{
+    max-width: 100% !important;
+}
+.enable-ul>li {
+    margin-bottom: 10px;
+}
+.home-bg {
+    background: url('./../images/learn_bg.jpg') no-repeat;
+    background-size: cover;
+    z-index: 1;
+}
+.text-bg,.home-bg {
+    position: absolute;
+    top:0;
+    left:0;
+    height: 100%;
+    width: 100%;   
+}
+.text-bg {
+    background: #0000007d;
+    z-index: 2;
+    color: white;
+}
