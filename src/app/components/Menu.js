@@ -7,7 +7,7 @@ function Menu(props) {
     const {location} = props;
     return (
         <Navbar collapseOnSelect id="header" bg="white" expand="lg" variant="light" className="shadow sticky-top">
-            <Navbar.Brand href="/">
+            <Navbar.Brand href="#/">
             <img
                 src={logo}
                 width="238"
