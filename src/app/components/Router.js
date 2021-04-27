@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import {
-    BrowserRouter as ReactRouter,
+    HashRouter as ReactRouter,
     Switch,
     Route  
 } from "react-router-dom";
@@ -10,6 +10,7 @@ import ContactUs from './ContactUs';
 import Enablement from './Enablement';
 import Faq from './Faq';
 import Home from './Home';
+import ScrollToTop from './ScrollToTop';
 
 export default function Router({menu,footer}) {
 
@@ -37,7 +38,8 @@ export default function Router({menu,footer}) {
         minHeight: minHeight
     };
     return (
-        <ReactRouter basename={process.env.PUBLIC_URL}>
+        <ReactRouter>
+            <ScrollToTop/>
             <div>
                 {menu}
                 <div className="p-4 position-relative" style={minStyle}>
