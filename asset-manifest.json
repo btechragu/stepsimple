@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/stepsimpledemo/static/css/main.7fe43fb7.chunk.css",
+    "main.js": "/stepsimpledemo/static/js/main.c8ac64e0.chunk.js",
+    "main.js.map": "/stepsimpledemo/static/js/main.c8ac64e0.chunk.js.map",
+    "runtime-main.js": "/stepsimpledemo/static/js/runtime-main.f02a0e62.js",
+    "runtime-main.js.map": "/stepsimpledemo/static/js/runtime-main.f02a0e62.js.map",
+    "static/js/2.3c464431.chunk.js": "/stepsimpledemo/static/js/2.3c464431.chunk.js",
+    "static/js/2.3c464431.chunk.js.map": "/stepsimpledemo/static/js/2.3c464431.chunk.js.map",
+    "index.html": "/stepsimpledemo/index.html",
+    "static/css/main.7fe43fb7.chunk.css.map": "/stepsimpledemo/static/css/main.7fe43fb7.chunk.css.map",
+    "static/js/2.3c464431.chunk.js.LICENSE.txt": "/stepsimpledemo/static/js/2.3c464431.chunk.js.LICENSE.txt",
+    "static/media/benefits.a49491ea.jpg": "/stepsimpledemo/static/media/benefits.a49491ea.jpg",
+    "static/media/course.bb08dd7c.jpg": "/stepsimpledemo/static/media/course.bb08dd7c.jpg",
+    "static/media/eligibility.b9fddec5.jpeg": "/stepsimpledemo/static/media/eligibility.b9fddec5.jpeg",
+    "static/media/custom.scss": "/stepsimpledemo/static/media/learn_bg.e0bc91b8.jpg",
+    "static/media/modus-logo.daed1c0d.png": "/stepsimpledemo/static/media/modus-logo.daed1c0d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f02a0e62.js",
+    "static/js/2.3c464431.chunk.js",
+    "static/css/main.7fe43fb7.chunk.css",
+    "static/js/main.c8ac64e0.chunk.js"
+  ]
+}
