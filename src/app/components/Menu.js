@@ -6,7 +6,7 @@ import logo from './../assets/images/logo.png'
 function Menu(props) {
     const {location} = props;
     return (
-        <Navbar id="header" bg="white" expand="lg" variant="light" className="shadow sticky-top">
+        <Navbar collapseOnSelect id="header" bg="white" expand="lg" variant="light" className="shadow sticky-top">
             <Navbar.Brand href="/">
             <img
                 src={logo}
